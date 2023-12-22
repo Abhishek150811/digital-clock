@@ -25,7 +25,6 @@ function timechange() {
         }
         hours = hours - 10 ; 
     }
-    // console.log(hours, minutes, seconds);
     document.getElementsByClassName('hour')[0].innerHTML = hours;
     document.getElementsByClassName('min')[0].innerHTML = minutes;
     document.getElementsByClassName('sec')[0].innerHTML = seconds;
@@ -52,10 +51,6 @@ function main() {
     ottawa.addEventListener('click' , func) ;
     washington.addEventListener('click' , func) ;
     london.addEventListener('click' , func) ;
-    // delhi.onclick = func;
-    // ottawa.onclick = func;
-    // washington.onclick = func;
-    // london.onclick = func;
 
 }
 main();
